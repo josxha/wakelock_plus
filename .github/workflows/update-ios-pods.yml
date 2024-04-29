@@ -13,7 +13,7 @@ jobs:
         with:
           flutter-version: '3.x'
       - name: Get Flutter dependencies
-        working-directory: wakelock_plus/ios
+        working-directory: wakelock_plus/example/ios
         run: flutter pub get
       - name: Update CocoaPods
         working-directory: wakelock_plus/example/ios
